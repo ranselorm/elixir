@@ -40,9 +40,7 @@ const Gallery = () => {
 
   return (
     <div className="font-primary mt-[80px]">
-      <h3 className=" text-center font-bold text-[18px] mb-[20px]">
-        Our Gallery
-      </h3>
+      <h3 className=" text-center text-[30px] mb-[20px]">Our Gallery</h3>
       <div className="flex flex-wrap justify-center gap-4 px-2 lg:px-[170px]">
         {imagePaths.map((src, index) => (
           <div
