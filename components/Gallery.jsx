@@ -90,7 +90,7 @@ const Gallery = () => {
       )}
       <div className="text-center mt-8">
         <p>Follow us on instagram</p>
-        <AiFillInstagram />
+        {/* <AiFillInstagram /> */}
       </div>
     </div>
   );
