@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Benefits from "@/components/Benefits";
 import Gallery from "@/components/Gallery";
 import HeroSection from "@/components/HeroSection";
 
@@ -7,7 +8,9 @@ export default function Home() {
     <div className="">
       <HeroSection />
       <About />
+      <Benefits />
       <Gallery />
+
       {/* <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
         consequuntur neque adipisci nostrum architecto quidem iste possimus modi
