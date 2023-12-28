@@ -1,10 +1,14 @@
+import About from "@/components/About";
+import Gallery from "@/components/Gallery";
 import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
     <div className="">
       <HeroSection />
-      <div>
+      <About />
+      <Gallery />
+      {/* <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
         consequuntur neque adipisci nostrum architecto quidem iste possimus modi
         sequi, excepturi deserunt itaque eveniet dolore ea eligendi? Ducimus
@@ -334,7 +338,7 @@ export default function Home() {
         quod ratione? Temporibus voluptatibus cum magni magnam quisquam
         blanditiis et itaque eius? Quaerat harum ipsa aspernatur ipsam dolore
         aut.
-      </div>
+      </div> */}
     </div>
   );
 }
